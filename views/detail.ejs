@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        <%= todo.text %>
+    </h1>
+    <h3>
+        Completed:
+        <%= todo.completed %>
+    </h3>
+
+    <% if(todo.completed) { %>
+    Complete time:
+    <%= todo.completedAt %>
+    <% } %>
+    <br><br>
+    <a class="btn btn-primary" href="/">Homepage</a>
+</body>
+
+</html>
