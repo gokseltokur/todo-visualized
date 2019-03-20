@@ -17,6 +17,8 @@ var Todo = mongoose.model('Todo', {
     }
 });
 
+KARDEŞİM DEĞİŞİKLİK YAPABİLİR MİYİM ?
+
 // var newTodo = new Todo({
 //     text: 'Kick deno\'s ass' 
 // });
